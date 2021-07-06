@@ -11,18 +11,25 @@ Copiate il codice che vi dá, create nella repo un file index.html e nel body in
 
  ## dipartimenti
 
- - id
+ - id   PRIMARY KEY, AI, INT, UNSIGNED
  - nome
+ - telefono
+ - indirizzo
+ - email
+ - sito_web
 
  ## corsi_di_laurea
 
- - id
+ - id BIGINT UNSIGNED
  - nome
+ - sitoweb
 
  ## corsi
 
- - id
+ - id BIGINT UNSIGNED
  - nome
+ - descrizione
+ - sito web
 
  ## insegnanti
 
@@ -34,8 +41,10 @@ Copiate il codice che vi dá, create nella repo un file index.html e nel body in
 
  ## appelli
 
- - id
+ - id BIGINT UNSIGNED
  - data
+ - ora
+ - luogo
 
  ## studenti
 
